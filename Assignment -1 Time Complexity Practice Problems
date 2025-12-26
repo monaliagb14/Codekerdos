@@ -9,6 +9,7 @@ System.out.println(i);
 }
 }
 Question: What is the time complexity of this function? 
+
 Ans - 0(n)
 
 Problem 2: Nested Loops
@@ -22,6 +23,7 @@ System.out.println(i + " " + j);
 }
 }
 Question: What is the time complexity of this function?
+
 Ans - 0(n^2)
 
 Problem 3: Sequential Operations
@@ -38,6 +40,7 @@ System.out.println(j);
 }
 }
 Question: What is the time complexity of this function?
+
 Ans - 0(n)
 
 Problem 4: Loop with Halving
@@ -51,6 +54,7 @@ i = i / 2;
 }
 }
 Question: What is the time complexity of this function?
+
 Ans - 0(log n)
 
 Problem 5: Triple Nested Loops
@@ -65,6 +69,7 @@ System.out.println(i + " " + j + " " + k);
 }
 }
 Question: What is the time complexity of this function?
+
 Ans - 0(n^3)
 
 Problem 6: Dependent Loop Bounds
@@ -78,6 +83,7 @@ System.out.println(i + " " + j);
 }
 }
 Question: What is the time complexity of this function?
+
 Ans - 0(n^2)
 
 Problem 7: Mixed Operations
@@ -98,6 +104,7 @@ System.out.println(i + " " + j);
 }
 }
 Question: What is the time complexity of this function?
+
 Ans - 0(n^2)
 
 Problem 8: Logarithmic with Linear
@@ -113,4 +120,5 @@ j = j / 2;
 }
 }
 Question: What is the time complexity of this function?
+
 Ans - 0(n log n)
