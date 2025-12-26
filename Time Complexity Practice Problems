@@ -1,0 +1,116 @@
+Time Complexity Practice Problems
+
+Problem 1: Simple Loop
+
+Java
+public static void problem1(int n) {
+for (int i = 0; i < n; i++) {
+System.out.println(i);
+}
+}
+Question: What is the time complexity of this function? 
+Ans - 0(n)
+
+Problem 2: Nested Loops
+
+Java
+public static void problem2(int n) {
+for (int i = 0; i < n; i++) {
+for (int j = 0; j < n; j++) {
+System.out.println(i + " " + j);
+}
+}
+}
+Question: What is the time complexity of this function?
+Ans - 0(n^2)
+
+Problem 3: Sequential Operations
+
+Java
+public static void problem3(int n) {
+// First loop
+for (int i = 0; i < n; i++) {
+System.out.println(i);
+}
+// Second loop
+for (int j = 0; j < n; j++) {
+System.out.println(j);
+}
+}
+Question: What is the time complexity of this function?
+Ans - 0(n)
+
+Problem 4: Loop with Halving
+
+Java
+public static void problem4(int n) {
+int i = n;
+while (i > 1) {
+System.out.println(i);
+i = i / 2;
+}
+}
+Question: What is the time complexity of this function?
+Ans - 0(log n)
+
+Problem 5: Triple Nested Loops
+
+public static void problem5(int n) {
+for (int i = 0; i < n; i++) {
+for (int j = 0; j < n; j++) {
+for (int k = 0; k < n; k++) {
+System.out.println(i + " " + j + " " + k);
+}
+}
+}
+}
+Question: What is the time complexity of this function?
+Ans - 0(n^3)
+
+Problem 6: Dependent Loop Bounds
+
+Java
+public static void problem6(int n) {
+for (int i = 0; i < n; i++) {
+for (int j = 0; j < i; j++) {
+System.out.println(i + " " + j);
+}
+}
+}
+Question: What is the time complexity of this function?
+Ans - 0(n^2)
+
+Problem 7: Mixed Operations
+
+Java
+public static void problem7(int n) {
+// Constant time operation
+int x = 5;
+// Single loop
+for (int i = 0; i < n; i++) {
+System.out.println(i);
+}
+// Nested loop
+for (int i = 0; i < n; i++) {
+for (int j = 0; j < n; j++) {
+System.out.println(i + " " + j);
+}
+}
+}
+Question: What is the time complexity of this function?
+Ans - 0(n^2)
+
+Problem 8: Logarithmic with Linear
+
+Java
+public static void problem8(int n) {
+for (int i = 0; i < n; i++) {
+int j = n;
+while (j > 1) {
+System.out.println(i + " " + j);
+j = j / 2;
+}
+}
+}
+Question: What is the time complexity of this function?
+Ans - 0(n log n)
